@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+target 'LalsinghaniNirav-HW5' do
+  use_frameworks!
+  
+  pod 'Alamofire', '5.2.2'
+  
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  
+  # add pods for desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
+
+
+  target 'LalsinghaniNirav-HW5Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LalsinghaniNirav-HW5UITests' do
+    # Pods for testing
+  end
+
+end
